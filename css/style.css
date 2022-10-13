@@ -1,0 +1,17 @@
+/* declarar unas variables de colores y fuentes*/
+:root{
+    /*fuentes*/
+    --titulos:'Lato', sans-serif;
+    --parrafos:'Roboto', sans-serif;
+    /*colores*/
+    --encabezado:rgb(73, 0, 0); 
+    --piepagina:#000;
+    --enlace: #fff;
+    --enlaceSobre:rgb(255, 234, 3);
+
+}
+
+/*Configuraciòn global*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--titulos);
+}
