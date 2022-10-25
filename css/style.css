@@ -15,3 +15,33 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--titulos);
 }
+
+/* selector universal en css es (*) */
+/*se utilizarà para calcular los padidngs o espaciados */
+*{box-sizing: border-box;
+
+}
+/* estilo para una clase en css es (.)*/
+.home-wrapper{
+    background-image: url('/images/background.jpg') ;
+    background-size: cover;
+    
+}
+header{
+    width: 100%;
+    background-color: var(--encabezado);
+    position: fixed;
+/*elemento fijo*/
+    padding-top: 8px;
+
+
+}
+header nav{
+    float: right;
+    margin-left: 5px;
+    
+
+}
+header img{
+    width:200px;
+}
