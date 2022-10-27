@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería BOOKSJG</title>
+    <!-- css preload  -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- css del bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- insertar las fuentes desde google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Encabezado global  -->
+    <div class="home-wrapper">
+        <!-- etiqueta encabezado -->
+        <header>
+            
+            <div class="container">
+                <!-- logo con enlace a la pagina principal (home) -->
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo"> 
+                </a>
+                    <!-- menú de navegación -->
+                    <nav>
+                        <!-- enlaces ancla de menú -->
+                        <a href="index.html#home" class="btn btn-warning">Home</a>
+                        <a href="index.html#novedades">novedades</a>
+                        <a href="index.html#categoria">categoría</a>
+                        <a href="index.html#contacto">contacto</a>
+                        <!-- enlace interno -->
+                        <a href="cotizar.html#cotizar">cotizar libro</a>
+                        <!-- enlaces externos -->
+                        <a href="https://librerianacional.com/" target="_blank" rel="noopener noreferrer">Librería Nacional</a>
+                        <!-- icono de fonto awsome -->
+                        <a href="https://wa.me/3014654598/" target="_blank" rel="noopener noreferrer" ><i class="fab fa-whatsapp-square"></i></a>
+                        <a href="https://www.instagram.com/wilarpa/" target="_blank" rel="noopener noreferrer" ><i class="fab fa-instagram-square"></i></a>
+                        <a href="https://www.facebook.com/DaleAlegriaMacarena/" target="_blank" rel="noopener noreferrer" ><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCc2LN-mD2DcoP0O84Xi7RpA" target="_blank" rel="noopener noreferrer" ><i class="fab fa-youtube"></i></a>
+                        
+                    </nav>
+               
+            </div>
+        </header>
+        <!-- sección de home -->
+        <section class="container" id="home">
+            <h1>BOOKJG, Los mejores títulos literarios</h1>
+            <a href="https://wa.me/3014654598" target="_blank" rel="noopener noreferrer"  class="btn btn-danger">Compra tu libro !!</a>
+
+            <p>
+                Promociones en los libros de terror !!
+            </p>
+        </section>
+    </div>
+    
+    <section id="cotizar">
+        <h2>Cotizar</h2>
+        <form action="mailto:wilson_arana@hotmail.com" method="post">
+
+            <div>
+                <input type="text" placeholder="Escribe tu nombre" required>
+                
+            </div>
+
+            <div>
+                <input type="text" placeholder="Escribe tus apellidos" required>
+
+            </div>
+
+            <div>
+                <input type="email" placeholder="Escribe tu email" required>
+
+            </div>
+
+            <div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            </div>
+
+            <div>
+                <!-- <input type="submit" value="Enviar" class="btn btn-warning">
+                <input type="reset" value="Borrar" class="btn btn-primary"> -->
+                <button type="submit" class="btn btn-warning">Enviar</button>
+                <button type="reset" class="btn btn-primary">Borrar</button>
+            </div>
+
+
+        </form>
+    </section>
+
+<!-- footer o pie de página -->
+<footer class="cover">
+    <!-- &copy; 2022. BOOKSJG Todos los derechos reservados -->
+    <i class="fa fa-copyright" aria-hidden="false"><br> 2022. BOOKSJG Todos los derechos reservados. <br> Diseñado por Wilson Arana Palomino</i>
+</footer>
+
+
+
+
+
+
+    
+<!-- Java script de bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
